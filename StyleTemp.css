@@ -1,0 +1,119 @@
+﻿#carousel_container {
+position: relative;
+align-content: center;
+}
+#TitleText {
+position: relative;
+align-content: center;
+}
+
+#personal_inline{
+float: right;
+}
+
+li{ 
+margin-left: 5cm;
+}
+
+oi{
+margin-left:4cm;
+}
+
+#row {
+    display: table-row;
+}
+
+#left{
+    width: 150px;
+    padding: 0;
+    display: table-cell;
+    }
+
+#middle{
+ display: table-cell;
+     padding: 10px;
+    width: 280px
+}
+#right{
+ display: table-cell;
+     padding: 10px;
+    width: 280px
+}
+
+
+.grow:hover{
+    color: #424242; 
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -ms-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  opacity: 1;
+  transform: scale(2);
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#picshadow {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+}
+
+#carousel_inner {  
+ /* important for inline positioning */  
+width:630px; /* important (this width = width of list item(including margin) * items shown */  
+overflow: hidden;  /* important (hide the items outside the div) */  
+/* non-important styling bellow */  
+background: #F0F0F0;  
+align-items: center;
+}  
+  
+#carousel_ul {  
+position:relative;  
+left:-210px; /* important (this should be negative number of list items width(including margin) */  
+list-style-type: none; /* removing the default styling for unordered list items */  
+margin: 0px;  
+padding: 0px;  
+width:9999px; /* important */  
+/* non-important styling bellow */  
+padding-bottom:10px;  
+}  
+  
+#carousel_ul li{  
+float: left; /* important for inline positioning of the list items */  
+width:200px;  /* fixed width, important */  
+/* just styling bellow*/  
+padding:0px;  
+height:110px;  
+background: #000000;  
+margin-top:10px;  
+margin-bottom:10px;  
+margin-left:5px;  
+margin-right:5px;  
+}  
+  
+#carousel_ul li img {  
+.margin-bottom:-4px; /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/  
+/* styling */  
+cursor:pointer;  
+/*cursor: hand;  */
+border:0px; 
+height: 100% 
+}  
+#left_scroll, #right_scroll{  
+float:right;  
+height:130px;  
+width:15px;  
+background: #C0C0C0;  
+}  
+#left_scroll img, #right_scroll img{  
+/*styling*/  
+cursor: pointer;  
+cursor: hand;  
+}  
