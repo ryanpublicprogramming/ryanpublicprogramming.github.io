@@ -1,7 +1,5 @@
-﻿#carousel_container {
-position: relative;
-align-content: center;
-}
+﻿/*GENERAL FORMATTING*/
+
 #TitleText {
 position: relative;
 align-content: center;
@@ -11,43 +9,28 @@ align-content: center;
 float: right;
 }
 
-li{ 
+li { 
 margin-left: 5cm;
 }
 
-oi{
-margin-left:4cm;
-}
-
-#row {
-    display: table-row;
-}
-
-#left{
-    width: 150px;
-    padding: 0;
-    display: table-cell;
-    }
-
-#middle{
- display: table-cell;
-     padding: 10px;
-    width: 280px
-}
-#right{
- display: table-cell;
-     padding: 10px;
-    width: 280px
+oi {
+margin-left: 4cm;
 }
 
 body {
+    margin-top: 1%;
     margin-right: 0%;
-    margin-top: 5%; 
-    margin-left:3%;  
+    margin-left:5%;  
     margin-bottom: 5%;
 }
 
-.grow:hover{
+p {
+    margin-right: 5%;
+}
+
+/*BIZ SECTION APP GROWING*/
+
+.grow:hover {
     color: #424242; 
   -webkit-transition: all 1s ease-in;
   -moz-transition: all 1s ease-in;
@@ -61,7 +44,12 @@ body {
 
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+/*NavBar*/
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+
+}
 
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -69,6 +57,36 @@ body {
 
 #picshadow {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+}
+
+/*DIV TABLE IN BIZ SECTION*/
+
+#row {
+    display: table-row;
+}
+
+#left {
+    width: 150px;
+    padding: 0;
+    display: table-cell;
+    }
+
+#middle {
+ display: table-cell;
+     padding: 10px;
+    width: 280px
+}
+#right {
+ display: table-cell;
+     padding: 10px;
+    width: 280px
+}
+
+/*CSS FOR SLIDER IN INTRO HEADER*/
+
+#carousel_container {
+position: relative;
+align-content: center;
 }
 
 #carousel_inner {  
